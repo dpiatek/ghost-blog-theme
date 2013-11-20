@@ -2,6 +2,7 @@
 
 <header class="header-home">
   <h1 class="header-home__title">{{@blog.title}}</h1>
+  <h2 class="header-home__description">{{@blog.description}}</h2>
 </header>
 
 <main class="content-home">
@@ -16,14 +17,7 @@
         <time class="post___time" datetime="{{date format='YYYY-MM-DD'}}">
           {{date format="DD MMM YYYY"}}
         </time>
-
-        {{#if tags}}
-          <span class="post__tags"> // {{tags}}</span>
-        {{/if}}
       </header>
-      <section class="post__excerpt">
-        <p>{{excerpt}}&hellip;</p>
-      </section>
     </article>
   {{/foreach}}
 </main>
