@@ -1,3 +1,5 @@
+/* General */
+
 body {
   font-family: 'calluna', serif;
   font-size: 14px;
@@ -9,14 +11,13 @@ body {
 }
 
 a { color: #77ce67; text-decoration: none; }
+h1, h2, h3, h4, h5, h6, p { margin: 0 0 1.5em 0; }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0 0 1.5em 0;
-}
 
-.header-home {
-  margin-bottom: 3em;
-}
+
+/* Home */
+
+.header-home { margin-bottom: 3em; }
 
 .header-home__title {
   font-size: 3em;
@@ -34,20 +35,28 @@ h1, h2, h3, h4, h5, h6, p {
   color: #999;
 }
 
-.post {
-  margin-bottom: 1.5em;
-}
+.post            { margin-bottom: 1.5em; }
+.post__title     { font-size: 1.8em; margin-bottom: 0.25em; }
+.post__title > a { text-decoration: none; color: inherit; }
+.post___time     { color: #aaa; }
 
-.post__title {
-  font-size: 1.8em;
-  margin-bottom: 0.25em;
-}
 
-.post__title > a {
-  text-decoration: none;
+
+/* Single post */
+
+.content-header  { margin-bottom: 2em; }
+
+.content-header__home-link {
+  border-bottom: 2px solid;
   color: inherit;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
-.post___time {
-  color: #aaa;
-}
+.article         { font-size: 16px; line-height: 1.5em; }
+.article-header  { max-width: 750px; }
+.article-title   { font-size: 2.4em; line-height: 1.25em; margin-bottom: 0; }
+.article-content { margin-bottom: 5em; max-width: 540px; }
+.article-meta    { color: #999; font-style: italic; font-size: 1em; line-height: 1.5em; }
+.article-header  { margin-bottom: 1.5em; }
+.article-tags    { font-style: italic; }

@@ -20,10 +20,10 @@
 
   <footer class="site-footer">
     <a class="site-footer__subscribe" href="{{@blog.url}}/rss/">Subscribe</a>
-    <div class="site-footer__inner">
-      <p class="site-footer__copyright">All content copyright <a href="/">{{@blog.title}}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.</p>
-      <section class="site-footer__poweredby">Published with <a class="icon-ghost" href="http://ghost.org">Ghost</a></section>
-    </div>
+    <p class="site-footer__copyright">
+      <a href="/">{{@blog.title}}</a> &copy; {{date format="YYYY"}}<br>
+      <span class="site-footer__poweredby">Published with <a class="icon-ghost" href="http://ghost.org">Ghost</a>.</span>
+    </p>
   </footer>
 
   {{! Ghost outputs important scripts and data with this tag }}
