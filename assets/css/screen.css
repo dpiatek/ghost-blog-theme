@@ -2,18 +2,16 @@
 
 body {
   font-family: 'calluna', serif;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.5em;
   background-color: #fff;
 
-  margin: 0;
-  padding: 5em 9em;
+  padding: 2em 2%;
 }
 
-a { color: #77ce67; text-decoration: none; }
+a { color: #3E52B9; text-decoration: none; }
+a:hover { color: #8292E7; }
 h1, h2, h3, h4, h5, h6, p { margin: 0 0 1.5em 0; }
-
-pre { font-size: 14px; line-height: 1.5em; } 
 
 
 /* Home */
@@ -37,10 +35,9 @@ pre { font-size: 14px; line-height: 1.5em; }
 }
 
 .post            { margin-bottom: 1.5em; }
-.post__title     { font-size: 1.8em; margin-bottom: 0.25em; }
+.post__title     { font-size: 1.8em; line-height: 1.3em; margin-bottom: 0.25em; }
 .post__title > a { text-decoration: none; color: inherit; }
 .post___time     { color: #aaa; }
-
 
 
 /* Single post */
@@ -54,9 +51,20 @@ pre { font-size: 14px; line-height: 1.5em; }
   font-weight: 600;
 }
 
-.article         { font-size: 16px; line-height: 1.5em; max-width: 560px; }
-.article-title   { font-size: 2.4em; line-height: 1.25em; margin-bottom: 0; }
-.article-content { margin-bottom: 5em; } 
-.article-meta    { color: #999; font-style: italic; font-size: 1em; line-height: 1.5em; }
-.article-header  { margin-bottom: 1.5em; }
-.article-tags    { font-style: italic; }
+.article-title     { font-size: 2.4em; line-height: 1.25em; margin-bottom: 0; }
+.article-content   { margin-bottom: 5em; }
+.article-meta      { color: #999; font-style: italic; font-size: 1em; line-height: 1.5em; }
+.article-header    { margin-bottom: 1.5em; }
+.article-tags      { font-style: italic; }
+
+.article-content p   { max-width: 720px; }
+.article-content pre { max-width: 1280px; }
+
+
+/* Code */
+
+pre {
+  font-size: 16px;
+  line-height: 1.5em;
+  position: relative;
+}
