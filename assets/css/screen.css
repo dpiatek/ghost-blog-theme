@@ -13,6 +13,7 @@ body {
 a { color: #77ce67; text-decoration: none; }
 h1, h2, h3, h4, h5, h6, p { margin: 0 0 1.5em 0; }
 
+pre { font-size: 14px; line-height: 1.5em; } 
 
 
 /* Home */
@@ -53,10 +54,9 @@ h1, h2, h3, h4, h5, h6, p { margin: 0 0 1.5em 0; }
   font-weight: 600;
 }
 
-.article         { font-size: 16px; line-height: 1.5em; }
-.article-header  { max-width: 750px; }
+.article         { font-size: 16px; line-height: 1.5em; max-width: 560px; }
 .article-title   { font-size: 2.4em; line-height: 1.25em; margin-bottom: 0; }
-.article-content { margin-bottom: 5em; max-width: 540px; }
+.article-content { margin-bottom: 5em; } 
 .article-meta    { color: #999; font-style: italic; font-size: 1em; line-height: 1.5em; }
 .article-header  { margin-bottom: 1.5em; }
 .article-tags    { font-style: italic; }
