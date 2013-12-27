@@ -1,6 +1,6 @@
-# Casper
+# Theme for blog.dominikpiatek.com
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+Based on Casper, the default theme for [Ghost](http://github.com/tryghost/ghost/).
 
 ## Copyright & License
 
