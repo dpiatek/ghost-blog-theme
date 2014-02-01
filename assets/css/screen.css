@@ -42,6 +42,8 @@ h1, h2, h3, h4, h5, h6, p { margin: 0 0 1.5em 0; }
 
 /* Single post */
 
+img { max-width: 960px; }
+
 .content-header  { margin-bottom: 2em; }
 
 .content-header__home-link {
