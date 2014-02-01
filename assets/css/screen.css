@@ -64,6 +64,12 @@ h1, h2, h3, h4, h5, h6, p { margin: 0 0 1.5em 0; }
 
 /* Code */
 
+p > code {
+  font-size: 0.8em;
+  background-color: hsl(50, 97%, 90%);
+  padding: 5px;
+}
+
 pre {
   font-size: 16px;
   line-height: 1.5em;
