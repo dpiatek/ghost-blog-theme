@@ -57,7 +57,9 @@ h1, h2, h3, h4, h5, h6, p { margin: 0 0 1.5em 0; }
 .article-header    { margin-bottom: 1.5em; }
 .article-tags      { font-style: italic; }
 
-.article-content p   { max-width: 720px; }
+.article-content p,
+.article-content ul,
+.article-content ol  { max-width: 720px; }
 .article-content pre { max-width: 1280px; }
 .article-content img { max-width: 960px; width: 100%; }
 
