@@ -1,12 +1,15 @@
 /* General */
 
 body {
-  font-family: 'calluna', serif;
-  font-size: 20px;
+  font-family: 'museo-sans', serif;
+  font-size: 18px;
   line-height: 1.5em;
   background-color: #fff;
 
   padding: 2em 2%;
+
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 a { color: #3E52B9; text-decoration: none; }
@@ -19,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p { margin: 0 0 1.5em 0; }
 .header-home { margin-bottom: 3em; }
 
 .header-home__title {
-  font-size: 3em;
+  font-size: 2em;
   line-height: 1.1em;
   display: inline-block;
   margin-bottom: 0.2em;
@@ -27,7 +30,7 @@ h1, h2, h3, h4, h5, h6, p { margin: 0 0 1.5em 0; }
 }
 
 .header-home__description {
-  font-size: 1.2em;
+  font-size: 0.9em;
   font-weight: normal;
   font-style: italic;
   line-height: 1.5em;
@@ -35,7 +38,7 @@ h1, h2, h3, h4, h5, h6, p { margin: 0 0 1.5em 0; }
 }
 
 .post            { margin-bottom: 1.5em; }
-.post__title     { font-size: 1.8em; line-height: 1.3em; margin-bottom: 0.25em; }
+.post__title     { font-size: 1.2em; font-weight: normal; line-height: 1.4em; margin-bottom: 0; }
 .post__title > a { text-decoration: none; color: inherit; }
 .post___time     { color: #aaa; }
 
@@ -72,8 +75,30 @@ p > code {
   padding: 5px;
 }
 
-pre {
-  font-size: 16px;
+.content .article pre {
+  font-size: 14px;
   line-height: 1.5em;
   position: relative;
+  background-color: transparent;
+}
+
+@media all and (max-width: 400px) {
+  body {
+    font-size: 14px;
+  }
+
+  .post__title {
+    font-size: 1.3em;
+    line-height: 1.4em;
+  }
+}
+
+@media (max-width: 860px) {
+  body {
+    font-size: 16px;
+  }
+
+  .article-title {
+    font-size: 1.8em;
+  }
 }
